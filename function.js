@@ -28,7 +28,7 @@
       this.load.image('bonus', 'assets/nukalurk.webp');
       this.load.image('mirelurk', 'assets/Mirelurk.webp');
       this.load.image('mutaracha', 'assets/mutaracha.webp');
-      this.load.image('background', 'assets/NEW_VEGAS.PNG')
+      this.load.image('background', 'assets/NEW_VEGAS.png')
       this.load.image('player', 'assets/servo.png');
       this.load.audio('explosion', 'assets/cartoon-splat-310479.mp3');
       this.load.image('reina_mirelurk', 'assets/reina-mirelurk.webp')
@@ -280,4 +280,5 @@
       .setOrigin(0.5)
       .setInteractive()
       .setDepth(11);
+
     }
